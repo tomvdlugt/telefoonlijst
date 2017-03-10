@@ -1,0 +1,114 @@
+#content>figure{
+    width:95%;
+    margin:auto;
+}
+#content input{
+    font-family: inherit;
+}
+#content figure img{
+    width:100%;
+}
+#content>figure figcaption{
+    width:60%;
+    margin:auto
+}
+#content figcaption th{
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    text-align: left;
+}
+#content figcaption td{
+    color:darkblue; 
+    padding: 2px 5px;
+}
+#content div a {
+    float:left;
+    width:40%;
+    padding:1% 5%;
+}
+#content div a:hover{
+   background-color:yellow;
+   color:red;
+}
+#content fieldset{
+    width:70%;
+    margin: auto;
+    padding:10px;
+    background-color:white;
+}
+#content legend{
+    padding:5px;
+    border: solid gray 1px;
+    background-color:white;
+}
+#content form table{
+    width:100%;
+}
+#content form input[type=text],#content form input[type=password]{
+    padding:6px;
+    margin:1%;
+    width:98%;
+    box-sizing:border-box;
+}
+#breaker{
+    clear: both;
+}
+#content #team img, #content #details img{
+    width:45%;
+    float:left;
+}
+#content #team, #content #details{
+    color:darkblue;
+    border:solid 3px darkblue;
+    padding:10px;
+    box-sizing:border-box;
+}
+#content #team div, #content #details div{
+    float:right;
+    width:53%;
+    padding:0 1%;
+}
+#content #team figcaption,#content #details figcaption{
+    clear:both;
+    width:100%
+}
+#content #details_table,#content #details_table a {
+    width:100%;
+    box-sizing:border-box;
+}
+#content>table td,th, caption{
+    font-family: Verdana, sans-serif;
+    box-sizing:border-box;
+ }
+#content caption{
+    text-align: left;
+    font-weight: bold;
+    padding: 3px 0 4px 0;
+    background-color: darkblue;
+    color:white; 
+ }
+ #content td, th{  
+    text-align: left;
+    padding: 4px 5px 4px 5px;
+    vertical-align: middle;
+    background-color: #FCC;
+ }
+ #content>table{
+     width:95%;
+     margin:auto;
+ }
+ #content>table thead th{
+   background-color: red;
+   font-size: 13px;
+ }
+ #content input[type=submit],#content input[type=reset] {
+     margin: 0 5px; 
+ }
+ #content input:required, #content #gebruiker_form select:required{
+     background-color:#ffff00;
+ }
+ #content input:required:valid, #content #gebruiker_form select:required:valid{
+     background-color:white;
+ }
+
